@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ProjectList{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.ProjectCard{
+  padding: 1%;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 2%;
+  text-align: left;
+}
+
+.ProjectCard span{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  
+}
+
+.ActionWrapper{
+  width: 80%;
+  margin: 1% auto;
+}
+
+.Action{
+  border-top: 1px solid black;
+}
+
+.FormWrapper{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Form{
+  border: 2px solid black;
+  padding: 2%;
+  border-radius: 20px;
+
+}

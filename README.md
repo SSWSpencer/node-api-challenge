@@ -46,7 +46,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
         It is a block of code that executes before an api call. Can be used to verify things in the request, allowing for more dry code
 
 - [ ] Describe a Resource?
-        It is code that is written by another programmer online that can be used to increase functionality of an api
+        An endpoint
 
 - [ ] What can the API return to help clients know if a request was successful?
         Status code 200
